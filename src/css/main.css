@@ -188,7 +188,7 @@ background: #3a5461;
         background-image:url(/img/about/about-desk.png);
         background-repeat: no-repeat;
         background-position:top 0 right;  
-        background-size: 350px 524px;
+        background-size: 382px 524px;
         height: 524px; 
     }
     .about-container{
@@ -244,4 +244,225 @@ background: #3a5461;
     height: 16px;
     background: #3a5461;
     }
+}
+/* Wymagania Sprzętowe */
+.requirements-container{
+    background-image:url(/img/requirements/requirements.png);
+    background-repeat: no-repeat;
+    background-position:bottom left;  
+    background-size: 100% 451px;
+    height: 814px;
+}
+.requirements-title{
+    margin-top: -90px;
+    margin-bottom: 58px;
+}
+.requirements-main-text{
+    font-family: "Racing Sans One", sans-serif;
+font-weight: 400;
+font-size: 26px;
+color: #0d0d0d;
+margin-bottom: 24px;
+}
+.requirements-big-text{
+    font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 22px;
+color: #0d0d0d;
+margin-bottom: 16px;
+}
+.requirements-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+.requirements-item{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.requirements-item-text{
+    font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 16px;
+color: #0d0d0d;
+}
+.requirements-final-text{
+    font-family: "Kanit", sans-serif;
+font-weight: 500;
+font-size: 16px;
+color: #0d0d0d;
+}
+@media only screen and (min-width: 1439px) {
+    .requirements-section{
+        background-image:url(/img/requirements/requirements.png);
+        background-repeat: no-repeat;
+        background-position:top 0 right;  
+        background-size: 382px 459px;
+        height: 459px; 
+    }
+    .requirements-title-container{
+        height: 459px;   
+    }
+    .requirements-container{
+        margin-left: 220px;
+        margin-top: -524px;
+        background-image:none;
+        height: 524px; 
+    }
+    .requirements-title{
+        margin-top:70px;
+        margin-left: -200px;
+        margin-bottom: 24px;
+        width: 170px;
+    }
+ .requirements-main-text{
+        margin-top: -80px;
+        font-size: 32px;
+        margin-bottom: 40px;
+        }
+.requirements-wrapper{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+    height: 152px;
+    margin-bottom: 40px;
+}
+.requirements-big-text{
+font-size: 24px;
+margin-bottom: 0;
+width: 263px;
+}
+.requirements-list{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 0;
+}
+.requirements-final-text{
+font-size: 18px;
+
+}
+}
+/* Programy i Zajęcia */
+.program-title{
+    margin-top: -90px;
+    margin-bottom: 58px;
+}
+.program-main-text{
+    font-family: "Racing Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 26px;
+     line-height: 1.15385;
+    color: #0d0d0d;
+    margin-bottom: 24px;
+}
+.program-big-text{
+    font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 22px;
+line-height: 1.18182;
+color: #0d0d0d;
+margin-bottom: 24px;
+}
+.programm-list{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.program-img{
+    margin-bottom: 8px;
+}
+.program-describe{
+    font-family: "Kanit", sans-serif;
+font-weight: 400;
+font-size: 24px;
+color: #0d0d0d;
+padding-bottom: 10px;
+border-bottom: 2px solid #ffca3b;
+margin-bottom: 8px;
+}
+.program-text-img{
+    font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 18px;
+color: #0d0d0d;
+}
+.program-container{
+    position: relative;  
+    height: 2670px;   
+}
+.yellow-container{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 202, 59, 0.7);
+    border-radius: 16px 0 0 0;
+    padding: 16px 16px 40px 16px;
+}
+.yellow-text{
+    font-family: "Kanit", sans-serif;
+font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #0d0d0d;
+}
+@media only screen and (min-width: 1439px) {
+   .program-title-container{
+    height: 1244px;
+   } 
+   .program-container{
+    margin-left: 220px;
+    margin-top: -1244px;
+    background-image:none;
+    height: 1244px; 
+}
+.program-title{
+    margin-top:50px;
+    margin-left: -200px;
+    margin-bottom: 24px;
+    width: 185px;
+    margin-bottom: 0;
+}
+.program-main-text{
+    font-size: 32px;
+    margin-bottom: 40px;
+    margin-top: -60px;
+}
+.program-big-text{
+font-size: 24px;
+margin-bottom: 40px;
+}
+.programm-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 22px;
+}
+.program-item{
+    width: 338px;
+    height: 452px;
+}
+.yellow-container{
+    position: absolute;
+
+    margin-top: -449px;
+    right: 0;
+    margin-left: auto;
+     width: 382px;
+   height: 500px;
+    background: rgba(255, 202, 59, 0.7);
+    border-radius: 16px 0 0 0;
+    padding: 40px 80px 10px 40px;
+}
+.yellow-text{
+font-size: 24px;
+letter-spacing: -0.01em;
+line-height: 1.5; 
+text-align: left;
+width: 262px;
+
+}
 }
