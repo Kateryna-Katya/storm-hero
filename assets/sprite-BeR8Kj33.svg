@@ -1,0 +1,16 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-email" viewBox="0 0 31 32">
+<path fill="none" stroke="#ffca3b" style="stroke: var(--color1, #ffca3b)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M5.12 7.040h20.48c0.704 0 1.28 0.576 1.28 1.28v15.36c0 0.704-0.576 1.28-1.28 1.28h-20.48c-0.704 0-1.28-0.576-1.28-1.28v-15.36c0-0.704 0.576-1.28 1.28-1.28z"></path>
+<path fill="none" stroke="#ffca3b" style="stroke: var(--color1, #ffca3b)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="2.56" d="M3.84 8.96l11.52 7.040 11.52-7.040"></path>
+</symbol>
+<symbol id="icon-cross" viewBox="0 0 32 32">
+<path fill="none" stroke="#ffca3b" style="stroke: var(--color1, #ffca3b)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M5.333 0.667h21.333c2.577 0 4.667 2.089 4.667 4.667v21.333c0 2.577-2.089 4.667-4.667 4.667h-21.333c-2.577 0-4.667-2.089-4.667-4.667v-21.333c0-2.577 2.089-4.667 4.667-4.667z"></path>
+<path fill="none" stroke="#f9f9f9" style="stroke: var(--color2, #f9f9f9)" stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M7 7l9 9M16 16l-9 9M16 16l9 9M16 16l9-9"></path>
+</symbol>
+<symbol id="icon-burger" viewBox="0 0 32 32">
+<path fill="none" stroke="#ffca3b" style="stroke: var(--color1, #ffca3b)" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="1.3333" d="M5.333 0.667h21.333c2.577 0 4.667 2.089 4.667 4.667v21.333c0 2.577-2.089 4.667-4.667 4.667h-21.333c-2.577 0-4.667-2.089-4.667-4.667v-21.333c0-2.577 2.089-4.667 4.667-4.667z"></path>
+<path fill="none" stroke="#f9f9f9" style="stroke: var(--color2, #f9f9f9)" stroke-linejoin="miter" stroke-linecap="round" stroke-miterlimit="4" stroke-width="1.3333" d="M7.5 9.5h17M7.5 21.5h17M7.5 15.5h17"></path>
+</symbol>
+</defs>
+</svg>
