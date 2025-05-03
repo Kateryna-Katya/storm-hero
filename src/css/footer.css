@@ -1,3 +1,40 @@
 .footer{
   background: #3a5461;
 }
+.footer-container{
+  padding: 40px 87px;
+}
+.footer-list{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 18px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+color: #f9f9f9;
+align-items: center;
+margin-bottom: 40px;
+}
+.footer-text{
+  font-family: "Kanit", sans-serif;
+font-weight: 300;
+font-size: 16px;
+color: #f9f9f9;
+}
+@media only screen and (min-width: 1439px) {
+  .footer-container{
+    padding: 40px 420px;
+  }
+  .footer-list{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+  }
+  .footer-text{
+ width: 450px;
+ margin-left: auto;
+ margin-right: auto;
+  } 
+}
