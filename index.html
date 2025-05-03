@@ -12,21 +12,76 @@
 <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Racing+Sans+One&display=swap" rel="stylesheet">
     <title>StormPowerHero </title>
     <script type="module" crossorigin src="/storm-hero/index.js"></script>
-    <link rel="stylesheet" crossorigin href="/storm-hero/assets/styles-ChH49npi.css">
+    <link rel="stylesheet" crossorigin href="/storm-hero/assets/styles-Cby1YEze.css">
   </head>
   <body>
-    <header class="header">
-  <div class="container">
-    <nav class="nav">
+    <header class="header" data-color="#091018">
+  <div class="container header-container">
+    <nav class="nav ">
+      <button type="button" class="menu-button" aria-label="button for open menu">
+        <svg class="header-svg" width="24" height="24">
+          <use href="/storm-hero/assets/sprite-BeR8Kj33.svg#icon-burger"></use>
+        </svg>
+      </button>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="#Główna">Strona<br/> Główna</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links"  href="#Nas">O Nas</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Sprzętowe">Wymagania<br/> Sprzętowe</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Programy">Programy i Zajęcia</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Pytania">Najczęściej<br/> Zadawane<br/> Pytania</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="#Kontakt">Kontakt</a>
+        </li>
+       </ul>
     </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <button class="modal-close-button" aria-label="close button">
+    <svg class="modal-svg" width="24" height="24">
+      <use href="/storm-hero/assets/sprite-BeR8Kj33.svg#icon-cross"></use>
+    </svg>
+  </button>
+  <ul class="menu-list">
+    <li class="menu-item" ><a class="menu-list-item" href="#Główna">Strona Główna</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Nas">O Nas</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Sprzętowe">Wymagania Sprzętowe</a>
+    </li>
+    <li class="menu-item"><a class="menu-list-item" href="#Programy">Programy i Zajęcia</a></li>
+    <li class="menu-item"><a class="menu-list-item" href="#Pytania">Najczęściej Zadawane Pytania</a></li>
+    <li class="menu-item">
+      <a class="menu-list-item" href="#Kontakt">Kontakt</a>
+    </li>
+   </ul>
+    <ul class="policy-list">
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Polityka-Prywatności.html">Polityka Prywatności</a>
+    </li>
+    <li class="policy-item">      
+      <a class="menu-list-item list-condition" href="Warunki-Użytkowania.html">Warunki Użytkowania</a>
+    </li>
+    <li class="policy-item">   
+      <a class="menu-list-item list-condition" href="Polityka-Cookies.html">Polityka Cookies</a>
+    </li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Główna">
     <div class="container hero-container">
      <h1 class="hero-title">StormPowerHero – Trenuj jak bohater, 
         nie wychodząc z domu</h1>   
@@ -44,7 +99,7 @@
     </div>
  </section>
  <!--  O Nas -->
-<section class="about-section">
+<section class="about-section" id="Nas">
     <div class="title-container"></div>
     <div class="container about-container">
         <h2 class="about-title"> O Nas</h2>
@@ -58,7 +113,7 @@
     </div>
 </section>
 <!-- Wymagania Sprzętowe -->
- <section class="requirements-section">
+ <section class="requirements-section" id="Sprzętowe">
     <div class="title-container requirements-title-container"></div>
     <div class="container requirements-container">
         <h2 class="requirements-title">Wymagania Sprzętowe</h2>
@@ -92,7 +147,7 @@
     </div>
  </section>
  <!-- Programy i Zajęcia -->
-  <section class="program-section">
+  <section class="program-section" id="Programy">
     <div class="title-container program-title-container"></div>
     <div class="container program-container">
         <h2 class="program-title">Programy i Zajęcia</h2>
@@ -171,7 +226,7 @@
     </div>
    </section>
    <!--Najczęściej Zadawane Pytania  -->
-   <section class="faq-section">
+   <section class="faq-section" id="Pytania">
     <div class="title-container faq-title-container"></div>
     <div class="container faq-container">
         <h2 class="faq-title">Najczęściej Zadawane Pytania</h2>
@@ -330,7 +385,7 @@
     </div>
    </section>
    <!--  O Kontakt -->
-     <section class="contact-section">
+     <section class="contact-section" id="Kontakt">
         <div class="title-container contact-title-container">
             <div class="container contact-container">
                 <h2 class="contact-title"> O Kontakt</h2>
@@ -351,10 +406,33 @@
     </main>
 
     <footer class="footer">
-  <div class="container">
+  <div class="container footer-container">
+    <ul class="footer-list">
+      <li>
+        <a href="Polityka-Prywatności.html">Polityka Prywatności</a>
+      </li>
+      <li>
+        <a href="Warunki-Użytkowania.html">Warunki Użytkowania</a>
+      </li>
+      <li>
+        <a href="Polityka-Cookies.html">Polityka Cookies</a>
+      </li>
+    </ul>
+<p class="footer-text">
+  ©2025 stormpowerhero.com
+  Wszelkie prawa zastrzeżone
+</p>
      </div>
 </footer>
 
-
+    <div id="cookie-popup" class="cookie-popup">
+    <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you agree to our use of cookies.</p>
+    <div class="cookie-buttons">
+           <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button> 
+         <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+                   
+    </div>
+</div>
+    
   </body>
 </html>
