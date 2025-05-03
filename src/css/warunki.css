@@ -1,0 +1,98 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./footer.css');
+@import url('./container.css');
+.warunki-title-container{
+  background: #3a5461;
+  height: 92px;
+  margin-top: 85px;
+}
+.background{
+
+  background-color: #F0F0F0;
+}
+.button-warunki{
+  position: absolute;
+  top: 32px;
+  display: flex;
+  align-items: center;
+  font-family: "kanit", sans-serif;
+font-weight: 300;
+font-size: 14px;
+line-height: 1.2;
+color: #201f24;
+border: none;
+background-color: inherit;
+}
+.warunki-title{
+  font-family: "Racing Sans One" sans-serif;
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+text-align: center;
+color: #f9f9f9;
+margin-top: -95px;
+}
+.warunki-rules-text{
+  font-family: "kanit" sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #0d0d0d;
+margin-top: 40px;
+}
+.warynki-subtitle{
+  font-family: "kanit" sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 130%;
+color: #0d0d0d;
+margin-top: 25px;
+margin-bottom: 16px;
+}
+.warunki-rules-title{
+  font-family: "kanit" sans-serif;
+font-weight: 500;
+font-size: 26px;
+line-height: 130%;
+color: #0d0d0d;
+margin-bottom: 16px;
+margin-top: 16px;
+}
+.warunki-text{
+  font-family: "kanit" sans-serif;
+font-weight: 400;
+font-size: 16px;
+line-height: 130%;
+color: #0d0d0d;
+}
+.warunki-link{
+  text-decoration: underline;
+}
+@media only screen and (min-width:1439px) {
+  .warunki-container{
+    padding-left: 189px;
+    padding-right: 189px;
+      }
+      .warunki-title{
+     font-weight: 400;
+     font-size: 40px;
+    line-height: 130%;
+    margin-top: -140px;
+      }
+      .warunki-subtitle{
+     font-weight: 400;
+     font-size: 32px;
+     line-height: 130%;
+      }
+.warunki-rules-title{
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 130%;
+      }
+.warunki-rules-subtitle{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 130%;
+      }
+}
