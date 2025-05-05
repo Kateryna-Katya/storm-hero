@@ -81,6 +81,9 @@ margin-bottom: 16px;
 .break-url{
   word-break: break-all;
 }
+.footer-container{
+  padding: 40px 87px;
+}
 @media only screen and (min-width:1439px) {
   .cookies-container{
     padding-left: 189px;
@@ -90,6 +93,9 @@ margin-bottom: 16px;
 font-weight: 400;
 font-size: 40px;
 margin-top: -140px;
+      }
+      .footer-container{
+        padding: 40px 420px;
       }
   
     }

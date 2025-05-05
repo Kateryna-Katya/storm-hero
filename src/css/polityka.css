@@ -87,6 +87,9 @@ color: #0d0d0d;
 margin-top: 16px;
 margin-bottom: 16px;
 }
+.footer-container{
+  padding: 40px 87px;
+}
 @media only screen and (min-width:1439px) {
   .polityka-container{
     padding-left: 189px;
@@ -112,5 +115,8 @@ margin-bottom: 16px;
   font-weight: 500;
   font-size: 20px;
   line-height: 130%;
+      }
+      .footer-container{
+        padding: 40px 420px;
       }
     }
